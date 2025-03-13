@@ -13,8 +13,8 @@ spec:
     server: https://kubernetes.default.svc
     namespace: mon-app-dev
   syncPolicy:
-    sytncOptions:
-      - CreateNamespace=true
+    syncOptions:
+    - CreateNamespace=true
     automated:
       prune: true
       selfHeal: true
