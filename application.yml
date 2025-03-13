@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Osza99/ArgoCDTest.git
-    targetRevision: HEAD
-    path: dev
+    targetRevision: ddev
+    path: .
   destination:
     server: https://kubernetes.default.svc
     namespace: mon-app-dev
